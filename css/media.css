@@ -1,15 +1,81 @@
-@media(max-width: 1299px){
+@media(max-width:1399px){
     .bannerConten {
-        padding-top: 25px;
+        padding-bottom:100px ;
+    }
+    .bannerConten h1{
+        font-size: 38px;
     }
 }
-@media(max-width: 1199px;){
+
+   
+@media(max-width: 1199px){
+    .px-5{
+        padding-right: 1rem!important;
+        padding-left: 1rem!important;
+    }
+    .productbox img {width: 90%;}
+    .bannerConten h1 {font-size: 24px;}
+    .bannerConten p {font-size: 16px;}
+    .bannerConten .btn-custom {padding: 8px 20px;}
+        
     
 }
-@media(max-width: 991px;){
+@media(max-width: 991px){
+    .bannerConten{
+        padding-bottom: 110px;
+    }
    
+    .productbox .h1 {
+        font-size: 26px;}
+    .productbox .btnProduct1{
+        font-size: 15px;
+    }
+    .productbox .h2 {
+        font-size: 26px;}
+    .productbox .btnProduct2{
+        font-size: 15px;
+    }
+    .productbox .h3 {
+        font-size: 26px;}
+    .productbox .btnProduct3{
+        font-size: 15px;
+    }
+    .exploreSectiom img:not(.arrow){
+        height: 286px !important;
+    }
 }
-@media(max-width: 767px;){
+@media(max-width: 767px){
+    .productbox img{
+        width: 70%;
+    }
+    .productbox .h1 {
+        font-size: 20px;}
+    .productbox .btnProduct1{
+        font-size: 10px;
+    }
+    .productbox .h2 {
+        font-size: 20px;}
+    .productbox .btnProduct2{
+        font-size: 10px;
+    }
+    .productbox .h3 {
+        font-size: 20px;}
+    .productbox .btnProduct3{
+        font-size: 10px;
+    }
+    
+    .heading h2{
+        font-size: 38px;
+    }
+    .heading p{
+        font-size: 26px;
+    }
+    .bannerConten{
+        padding-top: 137px;
+    }
+    .bannerConten h1 {
+        font-size: 30px;
+    }
 
 }
 @media(max-width: 575px;){}

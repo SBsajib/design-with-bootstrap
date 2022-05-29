@@ -3,7 +3,7 @@
 font-family: 'Oswald', sans-serif;/*/
 body{
 font-family: 'Open Sans', sans-serif;}
- .nav-link,.active, .nav-link,  .dropdown-togglem,{
+ .nav-link,.active, .nav-link,  .dropdown-togglem{
     color: rgb(52 29 15) !important;
     font-family: 'Oswald', sans-serif !important;
     letter-spacing: 2px !important;
@@ -18,6 +18,7 @@ header{
     background-size: cover;
 }
 .bannerConten{padding-top: 92px;}
+.banner{}
 .bannerConten h1{color: white;font-size: 45px;font-weight: 900;}
 .bannerConten p{font-size: 20px;color: #fff;}
 .bannerConten .btn-custom{font-size: 20px;color: #341d0f;background-color: #fff;text-transform: uppercase;font-weight: 700;padding: 10px 35px;}
@@ -34,6 +35,9 @@ header{
 }
 .heading p{font-size: 30px;font-weight: 400;color: #ab593e;}
 .productbox{text-align: center;}
+.productbox img{
+    width: 100%;
+}
 .productbox .btnProduct1{background-color: rgb(171 89 62);color: #fff;font-size: 18px;font-weight: 700;border-radius: 0;text-tansfroom: t;text-transform: uppercase;}
 .productbox .btnProduct2{background-color: #00a59a;color: #fff;font-size: 18px;font-weight: 700;border-radius: 0;text-tansfroom: t;text-transform: uppercase;}
 .productbox .btnProduct3{background-color: rgb(232 0 96);color: #fff;font-size: 18px;font-weight: 700;border-radius: 0;text-tansfroom: t;text-transform: uppercase;}
